@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jayven John A. Fajardo | Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+
+    </head>
+    <body>
+        <header>
+            <h1>Jayven John A. Fajardo</h1>
+
+            <p>BS Information Technology Student | Backend Developer</p>
+
+            <nav>
+                <a href="#home">Home</a> 
+                <a href="#about">About Me</a> 
+                <a href="#projects">Projects</a> 
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+
+                <img class="profile-picture" 
+                    src="images/jven_profile.jpg"
+                    alt="Portrait of Jayven John A. Fajardo">
+
+                <p>
+                    I am a Bachelor of Science in Information Technology
+                    student majoring in Business Analytics at Don Mariano
+                    Marcos Memorial State University – Mid-La Union Campus.
+                    I am passionate about backend development, API integration,
+                    application development, and IT troubleshooting.
+                </p>
+
+                <p>
+                    I enjoy applying my technical knowledge to real-world
+                    projects and exploring innovative solutions to practical
+                    problems. I aspire to continuously improve my skills,
+                    gain professional experience, and grow as an IT professional.
+                </p>
+
+        
+            </section>
+            
+            <hr>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+
+                <p>
+                    The following projects showcase my experience in
+                    backend development, application development,
+                    and web technologies.
+                </p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Project Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Technologies</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>OptiPonics</td>
+                            <td>
+                                An IoT-driven optimized aquaponics system
+                                with real-time analytics, sensor monitoring,
+                                automated alerts, and equipment control.
+                            </td>
+                            <td>Node.js, Express, MySQL, MQTT</td>
+                        </tr>
+
+                        <tr>
+                            <td>Rovers Coffee Mobile App</td>
+                            <td>
+                                A native Android application for Rovers Coffee
+                                Manna Mall Branch with REST API integration,
+                                token authorization, and OTP password reset.
+                            </td>
+                            <td>Kotlin, PHP, MySQL, REST API, Docker</td>
+                        </tr>
+
+                        <tr>
+                            <td>Armada Web Fundamentals</td>
+                            <td>
+                                A collection of web development assignments
+                                demonstrating my understanding of HTML,
+                                semantic elements, forms, and version control.
+                            </td>
+                            <td>HTML, Git, GitHub</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>
+                    Explore my web development assignments on
+                    <a href="https://github.com/jvenf0192/ArmadaWebFun-Git">
+                        GitHub
+                    </a>.
+                </p>
+            </section>
+
+            <hr>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+
+                <p>
+                    I am open to learning opportunities, collaborations,
+                    and meaningful projects. Feel free to connect with me
+                    or leave your feedback below.
+                </p>
+
+                <p>
+                    <a href="https://www.linkedin.com/in/jvenf09">
+                        LinkedIn
+                    </a> |
+                    <a href="https://github.com/jvenf0192">
+                        GitHub
+                    </a>
+                </p>
+
+                <h3>Contact and Feedback Form</h3>
+
+                <form>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname"
+                           name="fullname" required>
+
+                    <br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email"
+                           name="email" required>
+
+                    <br><br>
+
+                    <fieldset>
+                        <legend>
+                            How did you hear about this portfolio?
+                        </legend>
+
+                        <input type="radio" id="friend"
+                               name="source" value="friend" required>
+                        <label for="friend">Friend</label><br>
+
+                        <input type="radio" id="social-media"
+                               name="source" value="social-media">
+                        <label for="social-media">Social Media</label><br>
+
+                        <input type="radio" id="search-engine"
+                               name="source" value="search-engine">
+                        <label for="search-engine">Search Engine</label><br>
+
+                        <input type="radio" id="other"
+                               name="source" value="other">
+                        <label for="other">Other</label>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>What are your skills or interests?</legend>
+
+                        <input type="checkbox" id="web-development"
+                               name="interests" value="web-development">
+                        <label for="web-development">
+                            Web Development
+                        </label><br>
+
+                        <input type="checkbox" id="backend-development"
+                               name="interests" value="backend-development">
+                        <label for="backend-development">
+                            Backend Development
+                        </label><br>
+
+                        <input type="checkbox" id="mobile-development"
+                               name="interests" value="mobile-development">
+                        <label for="mobile-development">
+                            Mobile Application Development
+                        </label><br>
+
+                        <input type="checkbox" id="iot"
+                               name="interests" value="iot">
+                        <label for="iot">Internet of Things (IoT)</label><br>
+
+                        <input type="checkbox" id="business-analytics"
+                               name="interests" value="business-analytics">
+                        <label for="business-analytics">
+                            Business Analytics
+                        </label>
+                    </fieldset>
+
+                    <br>
+
+                    <label for="comments">Comments or Messages:</label>
+
+                    <br><br>
+
+                    <textarea id="comments" name="comments"
+                              rows="5" cols="40"
+                              placeholder="Enter your message here..."></textarea>
+
+                    <br><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <hr>
+
+        <footer>
+            <p>
+                &copy; 2026 Jayven John A. Fajardo.
+                All rights reserved.
+            </p>
+
+            <a href="#home">Back to Top</a>
+        </footer>
+    </body>
+</html>
